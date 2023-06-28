@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.content {
+    padding: 20px;
+}
+
+nav {
+    background-color: #fff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+}
+
+.menu-toggle {
+    display: none;
+    cursor: pointer;
+}
+
+.hamburger {
+    width: 20px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+    transition: 0.4s;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu li {
+    margin-left: 20px;
+    position: relative;
+}
+
+.menu a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom-color 0.3s, color 0.3s; /* Adicionado 'color' na transição */
+}
+
+.menu a:hover,
+.menu a:focus {
+    border-bottom-color: #333;
+    color: #222; /* Alterada a cor para um tom mais escuro */
+}
+
+@media (max-width: 550px) {
+    .menu {
+        display: none;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .active .hamburger:nth-child(2) {
+        opacity: 0;
+    }
+
+    .active .hamburger:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+
+    .active .hamburger:nth-child(3) {
+        transform: rotate(-45deg) translate(7px, -8px);
+    }
+
+    .menu.active {
+        display: block;
+    }
+}
+
+h1, p {
+    color: #333;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+}
+
+.footer-content {
+    padding: 20px;
+    text-align: center;
+}
+
+.main-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 35%;
+    padding: 124px 54px 72px;
+    box-sizing: border-box;
+    background-position: left top;
+    background-size: auto, cover;
+    text-align: right;
+
+    
+}
+
+
+.main-header-title{
+    font-size: 22px;
+    line-height: 1.5;
+    color: black;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.5);
+}
+.main-header-title strong{
+    color: black;
+    font-weight: normal;
+}
+.main-header-link{
+    color: inherit;
+}
+.main-header-link:hover{
+    color: #49bf9d;
+}
+
+.image_profile{
+    border-radius: 100%;
+    width: 110px;
+    height: 110px;
+}
+
+.main-content{
+    width: 65%;
+    margin-left: 35%;
+    padding: 124px 54px 72px;
+    box-sizing: border-box;
+    background-color: white;
+    border-style: solid;
+    border-width: 0.5;
+    font-style: none;
+}
+
+.main-header-link img{
+    border-radius: 50%;
+    overflow: hidden;
+}
+p{
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
