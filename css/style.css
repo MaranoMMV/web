@@ -94,12 +94,13 @@ h1, p {
 
 footer {
     background-color: #000;
-    color: #fff;
+    color: #ffffff;
 }
 
 .footer-content {
     padding: 20px;
     text-align: center;
+    color:white;
 }
 
 .main-header{
@@ -112,7 +113,9 @@ footer {
     box-sizing: border-box;
     background-position: left top;
     background-size: auto, cover;
-    text-align: right;
+    /*background-image: url(../imagens/Screenshot_3.jpg), url(../imagens/Screenshot_3.jpg);
+    */text-align: right;
+
 }
 
 
@@ -128,11 +131,13 @@ footer {
     font-weight:1px;
 }
 .main-header-link{
-    color: inherit;
+    color:#160bb6;
     text-decoration: none;
+    font-style: bold;
+
 }
 .main-header-link:hover{
-    color: #2a1bff;
+    color: #160bb6;
 }
 
 
@@ -199,4 +204,7 @@ strong{
 .img_project{
     max-width: 100%;
     height: auto;
+}
+.hackathon{
+    text-decoration: none;
 }

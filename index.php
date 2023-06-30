@@ -3,19 +3,19 @@ include_once("templates/menu.php");
 ?>
     <main class="main-content">
         <section class="main-content-section">
-            <h2>Curriculum</h2>
+            <h1>Curriculum</h1>
             <br>
             <h3>Education:</h3>
-            <p>Ensino Médio Completo - Escola Estadual Professor Miguel Sansigolo – Concluído em dezembro/2019.</p>
-            <p>Ensino Superior - Faculdade Das Américas. Sistemas de informação 8ºSemestre – Previsão de conclusão dezembro/2023.<p>
+            <p>Ensino Medio Complected - Escola Estadual Professor Miguel Sansigolo - completed in December 2019.</p>
+            <p>Ensino Superior - Faculdade Das Americas. Sistemas de informacao 8 Semestre - Expected to be completed in December 2023.<p>
             <br>
             <h3>Certificates</h3>
-            <p>Course: Professional qualification – City Computer – Completed in April 2019</p>
-            <p>Course: website development - Etec Vila Formosa - Complected in December 2019.</p>
-            <p>Course: Excel basic – Senac Vila Prudente – Complected in December 2021.</p>
-            <p>Course: Programação PHP do zero a Maestria + 4 Projetos incríveis - Udemy - concluído em Setembro de 2022.</p>
-            <p>Course: Java COMPLETO 2023 Programação Orientada a Objetos + Projetos - complected 27/06/2023</p>
-            <p>Studying: Inglês – Friends English School – Expected to be completed in December 2024.</p>
+            <p>Course: Professional qualification - City Computer - Completed in April 2019</p>
+            <p>Course: Website development - Etec Vila Formosa - Complected in December 2019.</p>
+            <p>Course: Excel basic - Senac Vila Prudente - Complected in December 2021.</p>
+            <p>Course: Programacao PHP do zero a Maestria + 4 Projetos incriveis - Udemy - Complected in Setember  2022.</p>
+            <p>Course: Java COMPLETO 2023 Programacao Orientada a Objetos + Projetos - Complected June 2023.</p>
+            <p>Studying: English - Friends English School - Expected to be completed in December 2024.</p>
             <br>
             <h3> Languages: </h3>
             <p>Portuguese: Nativo </p>
@@ -47,7 +47,7 @@ include_once("templates/menu.php");
             <h3> Professional Experiences: </h3>
             <p>Experience as a production assistant in Lully baby.</p>
             <p>Experience with communication, teamwork and leadership in GDC Brasil.</p>
-            <p>Experience with Help-desk, Technical Support, Infrastructure, Computer Maintenance and automation of spreadsheets (Excel) in SC - Serviços ao consumidor e teleatendimento LTDA.</p>
+            <p>Experience with Help-desk, Technical Support, Infrastructure, Computer Maintenance and automation of spreadsheets (Excel) in SC - Servicos ao consumidor e teleatendimento LTDA.</p>
             <p>Acting as Technical Support, Web Design, Maintenance of computers, infrastructure and computer networks in ClasseJL.</p>
         </section>
     </main>
