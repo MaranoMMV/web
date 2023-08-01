@@ -6,8 +6,8 @@ include_once("templates/menu.php");
             <h1>Curriculum</h1>
             <br>
             <h3>Education:</h3>
-            <p>Ensino Medio Complected - Escola Estadual Professor Miguel Sansigolo - completed in December 2019.</p>
-            <p>Ensino Superior - Faculdade Das Americas. Sistemas de informacao 8 Semestre - Expected to be completed in December 2023.<p>
+            <p>High school Complected - Escola Estadual Professor Miguel Sansigolo - completed in December 2019.</p>
+            <p>University education - Faculdade Das Americas. Information Systems 8 Semester - Expected to be completed in December 2023.<p>
             <br>
             <h3>Certificates</h3>
             <p>Course: Professional qualification - City Computer - Completed in April 2019</p>

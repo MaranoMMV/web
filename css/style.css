@@ -94,7 +94,7 @@ h1, p {
 
 footer {
     background-color: #000;
-    color: #ffffff;
+    color: white;
 }
 
 .footer-content {
@@ -103,21 +103,12 @@ footer {
     color:white;
 }
 
-.main-header{
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 35%;
-    padding: 70px 30px 72px;
-    box-sizing: border-box;
-    background-position: left top;
-    background-size: auto, cover;
-    /*background-image: url(../imagens/Screenshot_3.jpg), url(../imagens/Screenshot_3.jpg);
-    */text-align: right;
-
+h3::first-letter{
+    text-transform: uppercase;
 }
-
+.main-header-data:visited{
+    text-decoration: none;
+}
 
 .main-header-title{
     font-size: 27px;
@@ -153,15 +144,6 @@ footer {
     height: 110px;
 }
 
-.main-content{
-    width: 65%;
-    margin-left: 35%;
-    padding: 50px 70px 72px;
-    box-sizing: border-box;
-    background-color: white;
-    font-style: none;
-}
-
 .main-header-link img{
     border-radius: 50%;
     overflow: hidden;
@@ -188,17 +170,9 @@ strong{
     margin:0;
 }
 
-@media print {
-    .footer-content {
-      display: none;
-    }
-    
-}
 
-@media (max-height: 300px) {
-    .main-header {
-      display: none;
-    }
+.main-content {
+    flex: 0 0 65%; /* Define a largura como 65% */
 }
 
 .img_project{
@@ -207,4 +181,71 @@ strong{
 }
 .hackathon{
     text-decoration: none;
+}
+
+
+/*Testando */
+
+/* Estilos para a classe .main-header e .main-content */
+/* Estilos para a classe .main-header e .main-content */
+.main-header {
+    height: 100%;
+    padding: 70px 30px 72px;
+    text-align: right;
+    flex: 0 0 35%; /* Define a largura como 35% */
+}
+
+.main-content {
+    padding: 20px 70px 72px;
+    box-sizing: border-box;
+    background-color: white;
+    font-style: none;
+    flex: 0 0 65%; /* Define a largura como 65% */
+}
+
+/* Utilizando Flexbox para organizar as divs */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Media Query para ajustar o layout quando a tela for menor que 768px (por exemplo) */
+@media screen and (max-width : calc(700px + 165px)) {
+    .main-header{
+        text-align: center;
+    }
+
+    .main-content{
+        margin:0;;
+    }
+
+    .main-header, .main-content {
+        flex: 0 0 100%; /* Ambos ocupam a tela inteira quando a tela for menor que 768px */
+        margin: 0 auto; /* Centraliza horizontalmente */
+    }
+
+    /* Centraliza as divs usando flexbox em tela pequena */
+    .container {
+        justify-content: center;
+    }
+}
+
+/* Media Query para ajustar o layout da impressão (layout como na tela grande) */
+@media print {
+    .main-header {
+        width: 35%; /* Define a largura como 35% para a impressão */
+        position: fixed; /* Fixa a .main-header na parte superior da página impressa */
+        top: 0; /* Alinha a .main-header no topo da página */
+        left: 0; /* Alinha a .main-header no canto esquerdo da página */
+    }
+    .main-content{
+        margin-left: 35%;
+    }
+    .footer-content{
+        display: none ;
+    }
+}
+
+.white{
+    color:white;
 }
