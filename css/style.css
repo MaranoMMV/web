@@ -106,9 +106,6 @@ footer {
 h3::first-letter{
     text-transform: uppercase;
 }
-.main-header-data:visited{
-    text-decoration: none;
-}
 
 .main-header-title{
     font-size: 27px;
@@ -210,7 +207,7 @@ strong{
 }
 
 /* Media Query para ajustar o layout quando a tela for menor que 768px (por exemplo) */
-@media screen and (max-width : calc(700px + 165px)) {
+@media(max-width : 865px) {
     .main-header{
         text-align: center;
     }

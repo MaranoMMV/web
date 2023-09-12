@@ -15,6 +15,7 @@ include_once("templates/menu.php");
             <p>Course: Excel basic - Senac Vila Prudente - Complected in December 2021.</p>
             <p>Course: Programacao PHP do zero a Maestria + 4 Projetos incriveis - Udemy - Complected in Setember  2022.</p>
             <p>Course: Java COMPLETO 2023 Programacao Orientada a Objetos + Projetos - Complected June 2023.</p>
+            <p>Course: Spring Boot Expert: JPA, RESTFul API, Security, JWT and more - Udemy - Complected in September 2023.</p>
             <p>Studying: English - Friends English School - Expected to be completed in December 2024.</p>
             <br>
             <h3> Languages: </h3>
