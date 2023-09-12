@@ -236,6 +236,7 @@ strong{
         left: 0; /* Alinha a .main-header no canto esquerdo da página */
     }
     .main-content{
+        max-width: 80%;
         margin-left: 35%;
     }
     .footer-content{
