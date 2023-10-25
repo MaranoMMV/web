@@ -247,3 +247,9 @@ strong{
 .white{
     color:white;
 }
+
+main section{
+    margin-top:30px;
+    border-top: 2px solid black;
+
+}
